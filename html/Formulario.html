@@ -6,7 +6,7 @@
     <title>Exercício de entradas de Formulario</title>
 </head>
 <body>
-
+    <!--TEXT-->
     <label>Input de texto></label><br/>
     <input type="text" placeholder="Informe seu nome"/>
     
@@ -18,7 +18,7 @@
     <label>Input de e-mail</label><br/>
     <input type="email" placeholder="ex.: jocar@gmail.com"/>
 
-    <!-- RADIO INPUT-->
+    <!--RADIO INPUT-->
 
     <br/>
     <input type="radio" name="sexo" value="masculino"/>
@@ -31,11 +31,11 @@
     <label>não desejo informar</label>
     
     <br/> 
-    <!-- CHECKOUT-->
+    <!--CHECKOUT-->
     <h3>Estilo de filmes</h3>
     <input type="checkbox" name="filme" value="comédia"/>
     <label>comédia</label>
-
+    
     <input type="checkbox" name="filme" value="ação"/>
     <label>ação</label>
 
@@ -44,6 +44,31 @@
 
     <input type="checkbox" name="filme" value="romance"/>
     <label>romance</label>
+
+    <!--SELECTED-->
+
+    <h3>Qual a sua fruta preferida</h3>
+    <select name="fruta">
+        <option value="" selected >Selecione uma opção</option>
+        <option value="Pera">Pera</option>
+        <option value="Uva">Uva</option>
+        <option value="Manga">Manga</option>
+        <option value="Goiaba">Goiaba</option>
+    </select>
+
+    <h3>Quais são suas frutas preferidas</h3>
+    <select name="fruta" multiple size="10">
+        <option value="" selected >Selecione uma opção</option>
+        <option value="Pera">Pera</option>
+        <option value="Uva">Uva</option>
+        <option value="Manga">Manga</option>
+        <option value="Goiaba">Goiaba</option>
+        <option value="Melancia">Melancia</option>
+        <option value="Banana">Banana</option>
+        <option value="Coco">Coco</option>
+        <option value="Kiwi">Kiwi</option>
+        <option value="Abacaxi">Abacaxi</option>
+    </select>
 
 </body>
 </html>
