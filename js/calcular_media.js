@@ -19,3 +19,4 @@ if(media >= 7) {
 } else {
         console.log(`O aluno ${nome} esta reprovado com a média ${media}`)
 }
+
