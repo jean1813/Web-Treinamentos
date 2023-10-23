@@ -1,6 +1,6 @@
 var nome, nota1, nota2, nota3, nota4, media
 
-nome = 'Toinho Costa'
+nome = 'Jean Carlos'
 nota1 = 7,5
 nota2 = 7
 nota3 = 5,5
